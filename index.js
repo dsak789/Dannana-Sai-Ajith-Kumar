@@ -21,14 +21,14 @@ function fbc(){
 }
 var photos=[];
 var t=2500,i=0;
-photos[0]='images/AJJU.jpg';
-photos[1]='images/sb Burgman.jpg';
-photos[2]='images/sb livo.jpg';
-photos[3]='images/sb madhavadhara.jpg';
-photos[4]='images/sb smile.jpg';
-photos[5]='images/sbcam.jpg';
-photos[6]='images/SBProfile.jpg';
-photos[7]='images/TarunSai.jpg';
+photos[0]='Images/AJJU.jpg';
+photos[1]='Images/sb Burgman.jpg';
+photos[2]='Images/sb livo.jpg';
+photos[3]='Images/sb madhavadhara.jpg';
+photos[4]='Images/sb smile.jpg';
+photos[5]='Images/sbcam.jpg';
+photos[6]='Images/SBProfile.jpg';
+photos[7]='Images/TarunSai.jpg';
 function slide(){
     document.change.src=photos[i];
     if(i<photos.length-1){
