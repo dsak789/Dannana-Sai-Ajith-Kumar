@@ -20,7 +20,7 @@ function fbc(){
     ifpr.src="https://sbcreations14378.github.io/Facebook-Login-Signup-Clone/"
 }
 var photos=[];
-var t=3000,i=0;
+var t=2500,i=0;
 photos[0]='images/AJJU.jpg';
 photos[1]='images/sb Burgman.jpg';
 photos[2]='images/sb livo.jpg';
