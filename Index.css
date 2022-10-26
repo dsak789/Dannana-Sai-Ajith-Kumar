@@ -1,0 +1,81 @@
+html{
+    scroll-behavior:smooth;
+}
+
+
+#logo{
+    position:relative ;
+}
+#Profile-logo{
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    height: 100px;
+    
+    border-radius: 80px;
+}
+#name{
+    padding: 7px;
+    position: absolute;
+    top:25px;
+    left: 150px;
+    font-size: 50px;
+    background-color:rgb(147, 41, 59);
+    border-radius: 15px;
+    text-align: center;
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0.159);
+    border-radius: 500px;
+}
+#menu-sec{
+    position: fixed;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    height: 70vh;
+    justify-content: center;
+}
+#menu{
+    background-color: rgb(66, 200, 200);
+    border-radius: 15px;
+    width: 0px;
+    
+}
+#nav1{
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 40px;
+    border-radius: 15px ;
+    gap: 150px;
+}
+#nav1>a{
+    text-decoration: none;
+}
+#nav1 a:hover{
+    text-decoration: underline;
+    color: rgb(188, 191, 161);
+}
+h1{
+    font-size: 50px;
+}
+#content{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    left: 280px;
+   
+}
+#projects>ul>li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#projects>ul>li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#ifprojects{
+    display: none;
+}
