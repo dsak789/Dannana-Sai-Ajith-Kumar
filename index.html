@@ -8,7 +8,38 @@
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="icon.jpg" >
 </head>
-<body><div class="main">
+<body>
+    <h1 style="color:green;">
+	GeeksforGeeks
+</h1>
+
+<p id="GFG_UP">
+</p>
+
+<button onclick="GFG_Fun()">
+	click here
+</button>
+
+<p id="GFG_DOWN">
+</p>
+
+<!-- Script to display the device screen width -->
+<script>
+	var el_up = document.getElementById("GFG_UP");
+	var el_down = document.getElementById("GFG_DOWN");
+	
+	el_up.innerHTML = "Click on the button to get the"
+			+ " width of the device's screen";
+	
+	function GFG_Fun() {
+		var width = window.innerWidth;
+		el_down.innerHTML = width + " pixels";
+	}
+</script>
+
+    
+    
+    <div class="main">
     <div class="logo">
         <img id="dp" src="Images/SBProfile.jpg" alt="Profile-logo" height="70" width="70">
         <h1>Dannana Sai Ajith Kumar</h1>
