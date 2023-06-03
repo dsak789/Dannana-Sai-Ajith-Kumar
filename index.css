@@ -90,7 +90,7 @@ a{
 body{
     min-width: auto;
     min-height: 100vh;
-    background-color: rgb(53, 43, 43);
+    background-color: rgb(0, 0, 0);
 }
 #content{
     display: flex;
@@ -101,11 +101,11 @@ body{
     display: flex;
     flex-direction: row ;
     color: #000;
-    background-color: rgb(99, 60, 28);
+    background-color: rgba(215, 215, 209, 0.765);
     /* background-image: linear-gradient(to right bottom, rgba(236, 13, 5, 0.669), rgba(0, 255, 255, 0.747), rgba(251, 1, 117, 0.6)); */
     text-align: center;
     align-items: center;
-    font-size: xx-large;
+    font-size: x-large;
     font-family:cursive;
     justify-content: space-evenly;
     letter-spacing:25px;
@@ -114,6 +114,7 @@ body{
     border: 0px solid rgba(255, 0, 0, 0.258);
     border-radius: 10px;
     padding: 5px;
+    margin: 1%;
     z-index: 1;
 }
 .logo #dp{
@@ -148,7 +149,7 @@ body{
     color: rgba(255, 255, 255, 0.804);
     background-color: rgba(0, 0, 0, 0.256);
     /* border: 10px dashed rgba(0, 0, 0, 0.468); */
-    border-radius: 1px;
+    border-radius: 17px;
     padding: 10px;
 }
 
@@ -159,13 +160,17 @@ body{
 
 
 section{
-    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-height: 70vh;
     background-color: rgba(180, 186, 184, 0.562);
+    padding-top: 15%;
     padding: 20px;
     margin: 1% 3% 2% 20%;
     border-radius: 15px;
     z-index: 0;
+    font-family:'Courier New', Courier, monospace, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 section:nth-child(even){
@@ -174,7 +179,28 @@ section:nth-child(even){
     
 }
 #profile{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+    padding-top: 15%;
+    gap: 20%;
+
+}
+#profile p{
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 01px;
+
+}
+
+#education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
 }
 
 #ifprojects{
@@ -194,18 +220,17 @@ section:nth-child(even){
     
     
     *{
-        max-width: fit-content;
+        max-width: 100%;
         padding: auto;
     }
     .main{
-        max-width: 700px;
+        max-width: 100%;
     }
     .logo{
         position: sticky;
         top: 0;
-        left: auto;
-        right: auto;
-        max-width: 700px;
+        margin: 3%;
+        max-width: 100%;
         font-size: x-small;
         letter-spacing: 5px;
         padding: 1px;
@@ -223,7 +248,7 @@ section:nth-child(even){
     #prac{
         display: none;
         position: fixed; 
-        top: 7.5%;
+        top: 11%;
         right: 0%;
         min-height: 10px;
         max-height: 30px;
@@ -254,7 +279,9 @@ section:nth-child(even){
         text-align: end;
         justify-content: center;
         align-items: end;
-        background-color: rgba(0, 255, 255, 0.505);
+        color: #0e0f0f;
+        font-weight: 600;
+        background-color: rgba(199, 184, 184, 0.655);
         border: none;
         border-radius: 50px;
         padding: 5px;
@@ -262,13 +289,14 @@ section:nth-child(even){
         
         
     }
+    
     #prac:hover{
         max-width: max-content;
         max-height: max-content;
         text-align: center;
         align-items: center;
         justify-content: center;
-        background-color: rgb(118, 140, 142);
+        background-color: rgb(49, 52, 52);
         transition: 1.5s;
         animation: reverse;
         
@@ -280,19 +308,20 @@ section:nth-child(even){
         z-index: 3;
     }
     section{
+        /* padding-top: 15%; */
         position:relative;
         top: 20%;
-        margin: 2px;
-        max-width: 600px;
-        margin: 20px;
+        margin: 3%;
+        max-width: 100%;
         border-radius: 15px;
         z-index: 0;
     }
+
     #ifprojects{
         border: 0px solid;
         border-radius: 15px;
-        min-width: 400px;
-        max-height: 700px;
+        min-width: 95%;
+        max-height: 500px;
         margin: 3%;
     }
 }
