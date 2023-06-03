@@ -9,34 +9,6 @@
     <link rel="icon" href="icon.jpg" >
 </head>
 <body>
-    <h1 style="color:green;">
-	GeeksforGeeks
-</h1>
-
-<p id="GFG_UP">
-</p>
-
-<button onclick="GFG_Fun()">
-	click here
-</button>
-
-<p id="GFG_DOWN">
-</p>
-
-<!-- Script to display the device screen width -->
-<script>
-	var el_up = document.getElementById("GFG_UP");
-	var el_down = document.getElementById("GFG_DOWN");
-	
-	el_up.innerHTML = "Click on the button to get the"
-			+ " width of the device's screen";
-	
-	function GFG_Fun() {
-		var width = window.innerWidth;
-		el_down.innerHTML = width + " pixels";
-	}
-</script>
-
     
     
     <div class="main">
@@ -142,6 +114,64 @@
         </section>
     </div>
     </div>
+
+
+    <h1 style="color:green;">
+	GeeksforGeeks
+</h1>
+
+<p id="GFG_UP">
+</p>
+
+<button onclick="GFG_Fun()">
+	click here
+</button>
+
+<p id="GFG_DOWN">
+</p>
+
+<!-- Script to display the device screen width -->
+<script>
+	var el_up = document.getElementById("GFG_UP");
+	var el_down = document.getElementById("GFG_DOWN");
+	
+	el_up.innerHTML = "Click on the button to get the"
+			+ " width of the device's screen";
+	
+	function GFG_Fun() {
+		var width = window.innerWidth;
+		el_down.innerHTML = width + " pixels";
+	}
+</script>
+
+
+<h1 style="color:green;">
+	GeeksforGeeks
+</h1>
+
+<p id="GFG_UP"></p>
+
+<button onclick="GFG_Fun()">
+	click here
+</button>
+
+<p id="GFG_DOWN"></p>
+
+<!-- Script to display the device screen Height -->
+<script>
+	var el_up = document.getElementById("GFG_UP");
+	var el_down = document.getElementById("GFG_DOWN");
+	
+	el_up.innerHTML =
+	"Click on the button to get the" +
+	" Height of the device's screen";
+	
+	function GFG_Fun() {
+		var Height = window.innerHeight;
+		el_down.innerHTML = Height + " pixels";
+	}
+</script>
+
 </body>
 <script src="index.js"></script>
 </html>
