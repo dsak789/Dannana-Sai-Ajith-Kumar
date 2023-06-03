@@ -1,86 +1,7 @@
-/* html{
-    scroll-behavior:smooth;
-}
-
-
-#logo{
-    position:relative ;
-}
-#Profile-logo{
-    padding: 5px;
-    margin-left: 5px;
-    cursor: pointer;
-    height: 100px;
-    
-    border-radius: 80px;
-}
-#name{
-    padding: 7px;
-    position: absolute;
-    top:17px;
-    left: 150px;
-    font-size: 50px;
-    background-color:rgb(147, 41, 59);
-    border-radius: 15px;
-    text-align: center;
-}
-.menu{
-    background-color: rgba(0, 0, 0, 0.159);
-    border-radius: 500px;
-}
-#menu-sec{
-    position: fixed;
-    display: flex;
-    width: 200px;
-    align-items: center;
-    height: 70vh;
-    justify-content: center;
-}
-#menu{
-    background-color: rgb(66, 200, 200);
-    border-radius: 15px;
-    width: 0px;
-    
-}
-#nav1{
-    text-align: center;
-    word-spacing: 10px;
-    font-size: 40px;
-    border-radius: 15px ;
-    gap: 150px;
-}
-#nav1>a{
-    text-decoration: none;
-}
-#nav1 a:hover{
-    text-decoration: underline;
-    color: rgb(188, 191, 161);
-}
-h1{
-    font-size: 50px;
-}
-#content{
-    position:absolute;
-    display: flex;
-    flex-direction: column;
-    left: 300px;
-   
-}
-#projects>ul>li{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
-#projects>ul>li:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-*/
-
-
 /* Lets Start  */
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -93,15 +14,27 @@ body{
     background-color: rgb(0, 0, 0);
     color: #fff;
 }
+h1::first-letter{
+   color: rgba(114, 201, 0, 0.998);
+   font-size: 50px
+}
+h1{
+    color: #4fc557;
+}
 #content{
     display: flex;
     flex-direction:column;
 }
-
+.logo h1::first-letter{
+    color: #ff6600;
+}
+.logo h1{
+    color: #b70000;
+}
 .logo{
     display: flex;
     flex-direction: row ;
-    color: #000;
+    color: #000000;
     background-color: rgba(215, 215, 209, 0.765);
     /* background-image: linear-gradient(to right bottom, rgba(236, 13, 5, 0.669), rgba(0, 255, 255, 0.747), rgba(251, 1, 117, 0.6)); */
     text-align: center;
@@ -128,7 +61,7 @@ body{
 }
 #menu{
     position: absolute;
-    top: 25%;
+    top: 20%;
     overflow: hidden;
     z-index: 2;
     
@@ -148,12 +81,15 @@ body{
 #menu #nav a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.804);
-    background-color: rgba(0, 0, 0, 0.256);
-    /* border: 10px dashed rgba(0, 0, 0, 0.468); */
+    background-color: rgba(200, 175, 175, 0.256);
+    /* border: 10px solid rgba(236, 6, 6, 0.468); */
     border-radius: 17px;
     padding: 10px;
 }
-
+#menu #nav  a::first-letter{
+    color: #898703;
+    font-size: larger;
+}
 
 #prac{
     display: none;
@@ -177,6 +113,10 @@ section{
 section:nth-child(even){
     background-color: rgba(174, 187, 183, 0.304);
     color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
     
 }
 #profile{
@@ -185,15 +125,15 @@ section:nth-child(even){
     text-align: start;
     justify-content: center;
     align-items: start;
-    padding-top: 15%;
     gap: 20%;
-
+    
 }
 #profile p{
     text-align: start;
     align-items: center;
     justify-content: center;
     letter-spacing: 01px;
+    font-size: larger;
 
 }
 
@@ -202,7 +142,18 @@ section:nth-child(even){
     flex-direction: column;
     justify-content: center;
     text-align: end;
+    gap: 15px;
 }
+#education h2{
+    color: rgba(255, 0, 0, 0.516);
+    font-size: x-large
+}
+#education h3{
+    color: rgb(20, 19, 19);
+}
+
+
+
 
 #ifprojects{
     display: none;
@@ -219,7 +170,9 @@ section:nth-child(even){
 
 @media (min-width:200px) and (max-width : 600px) {
     
-    
+    body{
+        orientation: landscape;
+    }
     *{
         max-width: 100%;
         padding: auto;
@@ -232,7 +185,7 @@ section:nth-child(even){
         top: 0;
         margin: 3%;
         max-width: 100%;
-        font-size: x-small;
+        font-size:xx-small;
         letter-spacing: 5px;
         padding: 1px;
         z-index: 2;
@@ -248,10 +201,10 @@ section:nth-child(even){
     
     #prac{
         position: sticky; 
-        top: 11%;
+        top: 12.5%;
         right: 0%;
-        min-height: 5px;
-        max-height: 30px;
+        min-height: 10px;
+        max-height: 40px;
         overflow: hidden;
         max-width: max-content;
         min-width: fit-content;
@@ -273,9 +226,10 @@ section:nth-child(even){
         padding: 10px;
         text-decoration: none;
     }
+
     
     button{
-        max-width: fit-content;
+        max-width: -moz-fit-content;
         text-align: end;
         justify-content: center;
         align-items: end;
@@ -308,7 +262,7 @@ section:nth-child(even){
         z-index: 3;
     }
     section{
-        /* padding-top: 15%; */
+        padding-top: 15%;
         position:relative;
         top: 20%;
         margin: 3%;
