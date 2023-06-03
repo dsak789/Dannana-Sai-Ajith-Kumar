@@ -27,6 +27,8 @@ h1{
 }
 .logo h1::first-letter{
     color: #ff6600;
+    font-size: xx-large;
+
 }
 .logo h1{
     color: #b70000;
