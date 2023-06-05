@@ -1,11 +1,17 @@
 var ifpr=document.getElementById("ifprojects");
 function laj(){
-    ifpr.style.display="block"
-    ifpr.src="https://github.com/sbcreations14378/Loan-Assistant"
+   
+    if(confirm("Click OK  for redirecting to GitHub Code page")){
+        
+        window.location="https://github.com/sbcreations14378/Loan-Assistant"
+    }
 }
 function imj(){
-    ifpr.style.display="block";
-    ifpr.src="https://github.com/sbcreations14378/Inventory-Management";
+    
+    if(confirm("Click OK  for redirecting to GitHub Code page")){
+    
+    window.location="https://github.com/sbcreations14378/Inventory-Management";
+    }
 }
 function pgi(){
     ifpr.style.display="block"
@@ -19,6 +25,15 @@ function fbc(){
     ifpr.style.display="block"
     ifpr.src="https://sbcreations14378.github.io/Facebook-Login-Signup-Clone/"
 }
+function ohe(){
+    ifpr.style.display="block"
+    ifpr.src="https://sbcreations14378.github.io/SB7-Basic-online-Html-Editor/"
+}
+function tttg(){
+    ifpr.style.display="block"
+    ifpr.src="https://sbcreations14378.github.io/Tic-Tac-Toe/"
+}
+// alert("Click on Goto for redirecting to GitHub Code page")
 var photos=[];
 var t=2500,i=0;
 photos[0]='Images/AJJU.jpg';
@@ -38,4 +53,16 @@ function slide(){
     }
     setTimeout("slide()",t);
 }
-window.onload=slide;
+// window.onload=slide;
+
+// const onsearch=()=>{
+//     const input = document.querySelector("search");
+//     const filter = input.value.toUpperCase();
+//     const list = document.querySelectorAll("#list li");
+
+//     list.forEach((el)=>{
+//         const text = el.textContent.toUpperCase();
+
+//         el.style.display= text.includes(filter)?"":"none";
+//     })
+// }
