@@ -1,23 +1,32 @@
+<!DOCTYPE html>
 
-
-<head>
-    <title>Portfolio | DASK</title>
-    <meta charset="UTF-8">
+<head> 
+    
+    <title>Portfolio | Dannana Sai Ajith Kumar</title>
+    <meta charset="UTF-8" lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="icon.jpg" >
 </head>
 <body>
-    
-    
     <div class="main">
-    <div class="logo">
-        <img id="dp" src="Images/SBProfile.jpg" alt="Profile-logo" height="70" width="70">
-        <h1>Dannana Sai Ajith Kumar</h1>
+        <div class="logo">
+            <img id="dp" src="Images/SBProfile.jpg" alt="Profile-logo" height="70" width="70">
+            <h1>Dannana Sai Ajith Kumar</h1>
+        </div>
+        <div id="prac"><button>MENU</button> 
+            <nav id="nav2">
+                <a href="#profile"  >Profile</a>  
+                <a href="#education" >Education</a>
+                <a href="#projects" >Projects </a>
+            <a href="#skills" >Skill</a>
+            <a href="#family" >Family</a>
+            <a href="#contact" >Contact</a>
+        </nav>
     </div>
-    <div id="prac"><button>MENU</button> 
-        <nav id="nav2">
+    <div id="menu">
+        <nav id="nav">
             <a href="#profile"  >Profile</a>  
             <a href="#education" >Education</a>
             <a href="#projects" >Projects </a>
@@ -26,49 +35,41 @@
             <a href="#contact" >Contact</a>
         </nav>
     </div>
-        <div id="menu">
-            <nav id="nav">
-                <a href="#profile"  >Profile</a>  
-                <a href="#education" >Education</a>
-                <a href="#projects" >Projects </a>
-                <a href="#skills" >Skill</a>
-                <a href="#family" >Family</a>
-                <a href="#contact" >Contact</a>
-            </nav>
-        </div>
-        
-        <div id="content">
-            <section id="profile">
-                <h1>Profile</h1> <br> <br>
-                <!-- <h3>In Career Develpoment</h3> -->
-                <p>Welcome to my personal portfolio! <br> <br>
-
-                    I'm <strong>Dannana Sai Ajith Kumar</strong>, and I'm excited to have you here. 
-                    This portfolio is a glimpse into my professional journey and showcases my skills, expertise, and achievements.
-                    With a passion for Web Develpoment, I've dedicated myself to honing my craft and pushing boundaries. 
-                    Throughout my career, I've worked on a diverse range of projects, collaborating with talented individuals and delivering exceptional results.
-                    In this portfolio, you'll find a collection of my best work, highlighting my ability. 
-                    I believe in the power of effective communication and collaboration, and I thrive in dynamic team environments.
-                    Please take a moment to explore my portfolio and get a sense of my creative process and accomplishments.
-                    <br> 
-                    Thank you for visiting, and I look forward to connecting with you.
-                    <br>
-                    Best regards,<br>
-                     <h4>DSAK!</h4></p>
+    
+    <div id="content">
+        <section id="profile">
+            
+            <h1>Profile:</h1> <br> <br>
+            <!-- <h3>In Career Develpoment</h3> -->
+            <p>Welcome to My Personal Portfolio! <br> <br>
+                
+                I'm <strong>Dannana Sai Ajith Kumar</strong>, and I'm excited to have you here. 
+                This portfolio is a glimpse into my professional journey and showcases my skills, expertise, and achievements.
+                With a passion for Web Develpoment, I've dedicated myself to honing my craft and pushing boundaries. 
+                Throughout my career, I've worked on a diverse range of projects, collaborating with talented individuals and delivering exceptional results.
+                In this portfolio, you'll find a collection of my best work, highlighting my ability. 
+                I believe in the power of effective communication and collaboration, and I thrive in dynamic team environments.
+                Please take a moment to explore my portfolio and get a sense of my creative process and accomplishments.
+                <br> 
+                Thank you for visiting, and I look forward to connecting with you.
+                <br>
+                Best regards,<br>
+                <h3>DSAK!</h3></p>
         </section>
-        <section id="education">
+        <section id="education" active>
             <h1>Education</h1>
             <h2>School:-</h2> 
-            <h3>Gayathri Vidya Mandir <br> Madhavadhara,muralinagar, <br> Visakhapatnam-530007</h3>
+            <h3>Gayathri Vidya Mandir <br> Madhavadhara,muralinagar, <br> Visakhapatnam</h3>
             <h2>Diploma:-</h2>
             <h3>Governtment Polytechnic Chodavaram <br>Visakhapatnam</h3>
-            <h2>Under Gradutaion <sub>(Present)</sub></h2>
+            <h2>Under Gradutaion <br>Engineering<sub>(Present)</sub>:</h2>
             <h3>Jawahralal Nehru Technological University Gurajada Vizianagaram <br>
-                University College of Vizianagaram <br>Dwarapudi Vizianagaram</h3>
+                College of Vizianagaram (Autonomous) <br>Dwarapudi Vizianagaram</h3>
             </section>
+            
             <section id="projects">
-                <h1>Projects</h1>
-                <ul>
+                <h1>Projects~</h1>
+                <ul id="list">
                     <li id="laj" onclick="laj()">LOAN ASSISTANT <br> by JAVA<sub><a href="https://github.com/sbcreations14378/Loan-Assistant">goto</a></sub></li>
                     <li id="imj" onclick="imj()">INVENTORY MANAGEMENT <br> by JAVA<sub><a href="https://github.com/sbcreations14378/Inventory-Management">goto</a></sub></li>
                     <li id="pgi" onclick="pgi()">PAYMET GATE WAY INTEGRATION <br> by HTML<sub><a href="https://sbcreations14378.github.io/Payment-Gateway-Integration/">goto</a></sub></li>
@@ -80,20 +81,24 @@
             <section id="skills">
             <h1>Skills</h1>
             <h2>Prgramming:-</h2>
-            <ul>
-                <li>Html</li>
-                <li>Java Script</li>
-                <li>Css</li>
-                <li>C#</li>
-                <li>.Net</li>
-                <li>Java Fundamentals</li>
-                <li>Python Basic</li>
-                <li>C</li>
+            <ul  id="os">
+                <li>Html: <progress  value="75" max="100"></progress></li>
+                
+                <li>Java Script: <progress id="progress" value="70" max="100"></progress></li>
+                <li>Css: <progress id="progress" value="65" max="100"></progress></li>
+                <li>PHP: <progress id="progress" value="77" max="100"></progress></li>
+                <li>MySql: <progress id="progress" value="60" max="100"></progress></li>
+                <li>C#: <progress id="progress" value="77" max="100"></progress></li>
+                <li>.Net: <progress id="progress" value="70" max="100"></progress></li>
+                <li>Java Fundamentals: <progress id="progress" value="75" max="100"></progress></li>
+                <li>ReactJs: <progress id="progress" value="40" max="100"></progress></li>
+                <li>Python Basic: <progress id="progress" value="80" max="100"></progress></li>
+                <li>C: <progress id="progress" value="60" max="100"></progress></li>
             </ul> 
         </section>
         <section id="family">
-            <h1>Family</h1>
-            <h2>Parents:-</h2>
+            <h1>Family:~</h1>
+            
             <h3><u>Father:</u> <h2>Dannana Prabhakar Rao</h2>-Private Employee </h3>
             <h3><u>Mother:</u><h2>Dannana Lakshmi</h2>-Home Maker </h3>
             <h3><u>Brother:</u><h2>Dannana Tarun Kumar <sub>(B.Tech)</sub></h2>-Civil Engineer</h3>
@@ -114,8 +119,6 @@
         </section>
     </div>
     </div>
-
-
 </body>
 <script src="index.js"></script>
 </html>

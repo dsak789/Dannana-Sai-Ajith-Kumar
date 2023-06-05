@@ -27,8 +27,7 @@ h1{
 }
 .logo h1::first-letter{
     color: #ff6600;
-    font-size: xx-large;
-
+    font-size: 70px;
 }
 .logo h1{
     color: #b70000;
@@ -109,6 +108,7 @@ section{
     margin: 1% 3% 2% 20%;
     border-radius: 15px;
     z-index: 0;
+    cursor: pointer;
     font-family:'Courier New', Courier, monospace, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
@@ -121,6 +121,28 @@ section:nth-child(even){
     text-align: end;
     
 }
+section::before{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #212121 0%, #212121 50%,#ffffff 50%, 
+                #aea7a8 60%) ;
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em #0000004d;
+    transition: 0.3s;
+}
+section:hover::before{
+    width: 5.6em;
+    height: 5.6em;
+    cursor: pointer;
+}
+section:active{
+    box-shadow: 0.2em 0.2em 0.3em #000000;
+    transform: translate(0.1em, 0.1em);
+}
 #profile{
     display: flex;
     flex-direction: column;
@@ -130,13 +152,15 @@ section:nth-child(even){
     gap: 20%;
     
 }
-#profile p{
+#profile p , #profile h3{
     text-align: start;
     align-items: center;
     justify-content: center;
-    letter-spacing: 01px;
-    font-size: larger;
-
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: large;
+    
 }
 
 #education{
@@ -151,11 +175,16 @@ section:nth-child(even){
     font-size: x-large
 }
 #education h3{
-    color: rgb(20, 19, 19);
+    color: rgb(176, 172, 172);
 }
 
-
-
+#projects ul li{
+    list-style:none;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 01px;
+}
 
 #ifprojects{
     display: none;
@@ -164,6 +193,21 @@ section:nth-child(even){
     max-height: 700px;
 }
 
+#skills h2{
+    color: rgba(255, 0, 0, 0.516);
+    font-size: x-large
+}
+#skills ul li{
+    color: rgb(176, 172, 172);
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* #skills progress{
+color: #00ff11;
+background-color: #0000004d;
+border-radius: 15px;
+} */
 
 
 
@@ -188,10 +232,17 @@ section:nth-child(even){
         margin: 3%;
         max-width: 100%;
         font-size:xx-small;
-        letter-spacing: 5px;
+        letter-spacing: 2px;
         padding: 1px;
         z-index: 2;
         
+    }
+    .logo h1::first-letter{
+        color: #ff6600;
+        font-size:35px;
+    }
+    .logo h1{
+        color: #b70000;
     }
     .logo #dp{
         height: 50px;
@@ -279,5 +330,34 @@ section:nth-child(even){
         min-width: 95%;
         max-height: 500px;
         margin: 3%;
+    }
+}
+
+h1{
+    animation: shake 0s infinite;
+    color: red;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(-4px);
+        color: #1100c7;
+
+    }
+    25%{
+        transform: translateX(4px);
+        color: #4fc557;
+    }
+    50%{
+        transform: translateX(-4px);
+        color:rgb(109, 24, 0);
+    }
+    75%{
+        transform: translateX(4px);
+        color: orchid;
+    }
+    100%{
+        transform: translateX(-4px);
+        color: rgb(16, 16, 16);
+
     }
 }
