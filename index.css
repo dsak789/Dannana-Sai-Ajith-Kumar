@@ -211,7 +211,7 @@ section:active{
     font-size: x-large
 }
 #skills ul li{
-    color: rgb(176, 172, 172);
+    color: rgb(255, 255, 255);
     list-style: none;
     text-decoration: none;
     font-weight: 600;
@@ -224,10 +224,24 @@ section:active{
 
 
 #family h3{
-    color: rgba(44, 190, 44, 0.831);
+    color: rgba(214, 134, 22, 0.831);
     font-size: x-large
 }
-
+#contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#contact h2{
+    color: rgba(214, 134, 22, 0.831);
+    font-size: x-large
+    
+}
+#contact h2 a{
+    color: rgb(178, 226, 19);
+    font-size: x-large
+    
+}
 
 
 
@@ -342,7 +356,7 @@ section:active{
         z-index: 3;
     }
     section{
-        padding-top: 15%;
+        padding-top: 20%;
         position:relative;
         top: 20%;
         margin: 3%;
