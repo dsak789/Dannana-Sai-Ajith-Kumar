@@ -20,6 +20,7 @@ h1::first-letter{
 }
 h1{
     color: #4fc557;
+    box-shadow: inset;
 }
 #content{
     display: flex;
@@ -58,6 +59,7 @@ h1{
     border: 2px solid black;
     border-radius: 150px;
     object-fit:fill;
+    box-shadow: 1px 1px 20px;
     margin: 15px;
 }
 #menu{
@@ -91,9 +93,19 @@ h1{
     color: #898703;
     font-size: larger;
 }
+#menu #nav  a:hover::first-letter{
+    color: #ecea55;
+    
+}
 
 #prac{
     display: none;
+}
+
+section:hover{
+    scale: 0.99;
+    transition: 0.5s;
+    box-shadow: -1px 1px 50px;
 }
 
 
@@ -129,7 +141,7 @@ section::before{
     top: 0;
     left: 0;
     background: linear-gradient(135deg, #212121 0%, #212121 50%,#ffffff 50%, 
-                #aea7a8 60%) ;
+    #aea7a8 60%) ;
     border-radius: 0 0 0.5em 0;
     box-shadow: 0.2em 0.2em 0.2em #0000004d;
     transition: 0.3s;
@@ -143,6 +155,7 @@ section:active{
     box-shadow: 0.2em 0.2em 0.3em #000000;
     transform: translate(0.1em, 0.1em);
 }
+
 #profile{
     display: flex;
     flex-direction: column;
@@ -194,7 +207,7 @@ section:active{
 }
 
 #skills h2{
-    color: rgba(255, 0, 0, 0.516);
+    color: rgba(255, 2, 2, 0.831);
     font-size: x-large
 }
 #skills ul li{
@@ -203,13 +216,17 @@ section:active{
     text-decoration: none;
     font-weight: 600;
 }
-#skills progress{
-color: #00ff11;
-background-color: #0000004d;
-border-radius: 15px;
+/* #skills progress{
+    color: #00ff11;
+    background-color: #0000004d;
+    border-radius: 15px;
+} */
+
+
+#family h3{
+    color: rgba(44, 190, 44, 0.831);
+    font-size: x-large
 }
-
-
 
 
 
@@ -268,6 +285,10 @@ border-radius: 15px;
         letter-spacing: 2px;
         
     }
+    #prac #nav2 a span::first-letter{
+        color: #ff000d;
+        font-size: xx-large ;
+    }
     #prac #nav2 a{
         /* max-height: 25px; */
         display: flex;
@@ -276,12 +297,18 @@ border-radius: 15px;
         justify-content: center;
         align-items:flex-start;
         gap: 30px;
+        font-size: large;
         padding: 10px;
         text-decoration: none;
+        color: #aea7a8;
     }
 
     
+    button::first-letter{
+        color: #f2f2f3;
+    }
     button{
+        letter-spacing: 2px;
         max-width: -moz-fit-content;
         text-align: end;
         justify-content: center;
