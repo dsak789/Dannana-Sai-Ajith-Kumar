@@ -64,7 +64,7 @@ h1{
 }
 #menu{
     position: absolute;
-    top: 20%;
+    top: 17%;
     overflow: hidden;
     z-index: 2;
     
@@ -75,7 +75,7 @@ h1{
     flex-direction: column;
     max-width: 19%;
     overflow: hidden;
-    gap: 35px;
+    gap: 28px;
     letter-spacing: 5px;
     padding: 25px;
     font-size: xx-large;
@@ -97,6 +97,22 @@ h1{
     color: #ecea55;
     
 }
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+#social i{
+    color: #898703;
+    text-align: center;
+    padding: 2%;
+}
+#social i:hover{
+    color: #ecea55;
+}
+
 
 #prac{
     display: none;
