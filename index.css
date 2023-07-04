@@ -32,6 +32,8 @@ h1{
 }
 .logo h1{
     color: #b70000;
+    /* box-shadow: 1px 1px 2px; */
+    filter: drop-shadow(3px 5px 5px rgb(147, 75, 19));
 }
 .logo{
     display: flex;
@@ -49,6 +51,7 @@ h1{
     top: 1px;
     border: 0px solid rgba(255, 0, 0, 0.258);
     border-radius: 10px;
+    filter: drop-shadow(-2px 05px 10px rgb(220, 128, 128));
     padding: 5px;
     margin: 1%;
     z-index: 1;
@@ -92,9 +95,12 @@ h1{
 #menu #nav  a::first-letter{
     color: #898703;
     font-size: larger;
+    /* filter: drop-shadow(1px 1px 5px rgb(198, 236, 11)); */
+    /* mix-blend-mode:color-burn; */
 }
 #menu #nav  a:hover::first-letter{
     color: #ecea55;
+    /* box-shadow: 1px 1px 5px; */
     
 }
 #social{
@@ -104,17 +110,26 @@ h1{
     text-align: center;
     align-items: center;
 }
+#social a{
+    text-align: center;
+    justify-content: center;
+}
 #social i{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     color: #898703;
     text-align: center;
     padding: 2%;
 }
 #social i:hover{
+    filter: drop-shadow(1px 1px 0.5px rgb(198, 236, 11));
     color: #ecea55;
+    /* box-shadow: 1px 1px 5px; */
 }
 
 
-#prac{
+#media-menu{
     display: none;
 }
 
@@ -299,7 +314,7 @@ section:active{
         display: none;
     }
     
-    #prac{
+    #media-menu{
         position: sticky; 
         top: 12.5%;
         right: 0%;
@@ -315,11 +330,11 @@ section:active{
         letter-spacing: 2px;
         
     }
-    #prac #nav2 a span::first-letter{
+    #media-menu #nav2 a span::first-letter{
         color: #ff000d;
         font-size: xx-large ;
     }
-    #prac #nav2 a{
+    #media-menu #nav2 a{
         /* max-height: 25px; */
         display: flex;
         flex-direction: column;
@@ -330,12 +345,18 @@ section:active{
         font-size: large;
         padding: 10px;
         text-decoration: none;
-        color: #aea7a8;
+        color: #788081;
     }
-
+    #media-menu #social{
+        /* background-color: #1100c7; */
+        margin-bottom: 7px;
+        /* filter: drop-shadow(0px 0px 0.5px yellow); */
+    }
     
     button::first-letter{
-        color: #f2f2f3;
+        color: #602222;
+        font-size: larger;
+        filter: drop-shadow(0px 0px 0.9px rgb(186, 186, 182));
     }
     button{
         letter-spacing: 2px;
@@ -343,7 +364,7 @@ section:active{
         text-align: end;
         justify-content: center;
         align-items: end;
-        color: #0e0f0f;
+        color: #2d3e3e;
         font-weight: 600;
         background-color: rgba(199, 184, 184, 0.655);
         border: none;
@@ -354,7 +375,7 @@ section:active{
         
     }
     
-    #prac:hover{
+    #media-menu:hover{
         max-width: max-content;
         max-height: max-content;
         text-align: center;
@@ -362,10 +383,10 @@ section:active{
         justify-content: center;
         background-color: rgb(49, 52, 52);
         transition: 1.5s;
-        animation: reverse;
+        /* animation: reverse; */
         
     }
-    #prac{
+    #media-menu{
         position: fixed;
         display: block;
         right: 1%;
