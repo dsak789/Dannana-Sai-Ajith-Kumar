@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dannana-Sai-Ajith-Kumar/static/css/main.1176cbe6.css",
+    "main.js": "/Dannana-Sai-Ajith-Kumar/static/js/main.9b7e24de.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Dannana-Sai-Ajith-Kumar/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profilepic.jpg": "/Dannana-Sai-Ajith-Kumar/static/media/profilepic.c9e5f2075d7dea913aee.jpg",
+    "index.html": "/Dannana-Sai-Ajith-Kumar/index.html",
+    "main.1176cbe6.css.map": "/Dannana-Sai-Ajith-Kumar/static/css/main.1176cbe6.css.map",
+    "main.9b7e24de.js.map": "/Dannana-Sai-Ajith-Kumar/static/js/main.9b7e24de.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Dannana-Sai-Ajith-Kumar/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1176cbe6.css",
+    "static/js/main.9b7e24de.js"
+  ]
+}
