@@ -3,35 +3,35 @@ function laj(){
    
     if(confirm("Click OK  for redirecting to GitHub Code page")){
         
-        window.location="https://github.com/sbcreations14378/Loan-Assistant"
+        window.location="https://github.com/dsak789/Loan-Assistant"
     }
 }
 function imj(){
     
     if(confirm("Click OK  for redirecting to GitHub Code page")){
     
-    window.location="https://github.com/sbcreations14378/Inventory-Management";
+    window.location="https://github.com/dsak789/Inventory-Management";
     }
 }
 function pgi(){
     ifpr.style.display="block"
-    ifpr.src="https://sbcreations14378.github.io/Payment-Gateway-Integration/"
+    ifpr.src="https://dsak789.github.io/Payment-Gateway-Integration/"
 }
 function irrs(){
     ifpr.style.display="block"
-    ifpr.src="https://sbcreations14378.github.io/Indian-Railway-Reservation-System/"
+    ifpr.src="https://dsak789.github.io/Indian-Railway-Reservation-System/"
 }
 function fbc(){
     ifpr.style.display="block"
-    ifpr.src="https://sbcreations14378.github.io/Facebook-Login-Signup-Clone/"
+    ifpr.src="https://dsak789.github.io/Facebook-Login-Signup-Clone/"
 }
 function ohe(){
     ifpr.style.display="block"
-    ifpr.src="https://sbcreations14378.github.io/SB7-Basic-online-Html-Editor/"
+    ifpr.src="https://dsak789.github.io/SB7-Basic-online-Html-Editor/"
 }
 function tttg(){
     ifpr.style.display="block"
-    ifpr.src="https://sbcreations14378.github.io/Tic-Tac-Toe/"
+    ifpr.src="https://dsak789.github.io/Tic-Tac-Toe/"
 }
 // alert("Click on Goto for redirecting to GitHub Code page")
 var photos=[];
