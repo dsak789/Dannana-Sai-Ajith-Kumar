@@ -1,0 +1,82 @@
+.profile-main{
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    cursor:auto;
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.welcome-note{
+    display: flex;
+    flex-direction: column;
+}
+.welcome-note h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.welcome-button-div{
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    padding: 12px;
+    justify-content: space-evenly;
+}
+.welcome-button-div button,button{
+    cursor:alias;
+    padding: 12px;
+    border-radius: 5px;
+    color: navy;
+    background-color: aquamarine;
+}
+.intro-profile-pic{
+ max-width:max-content;
+ max-height: max-content;
+ overflow: hidden;
+ object-fit:scale-down;
+ border-radius: 50%;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.project1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    /* align-items: center; */
+}
+.thumbnail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: max-content;
+    max-height: max-content;
+    transition: 1s;
+
+}
+.description{
+    position: absolute;
+    bottom: -400px;
+    opacity: 0;
+    transition: 1s;
+} .thumbnail:hover img{
+    filter: blur(1px);
+}
+.thumbnail:hover .description{
+    color: red;
+    opacity: 1;
+    bottom: -300px;
+}
