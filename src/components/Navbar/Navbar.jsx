@@ -15,7 +15,6 @@ const Navbar = () => {
       <nav className="nav-wrapper">
         <div className="nav-content">
           <img className="logo" src="./assets/AJJU.jpg" alt="DSAK-Logo" />
-
           <ul>
             <li>
               <a href="/" className="menu-item">
@@ -38,7 +37,7 @@ const Navbar = () => {
               </a>
             </li>
 
-            <button className="contact-btn" onClick={() => {}}>
+            <button className="contact-btn" onClick={() => {window.location.href='mailto:dsak.official@gmail.com'}}>
               Hire Me
             </button>
           </ul>

@@ -16,19 +16,19 @@ const MobileNavbar = ({isOpen, toggleMenu}) => {
             />
         <ul>
                 <li>
-                    <a className='menu-item'>Home</a>
+                    <a href='/' className='menu-item'>Home</a>
                 </li>
                 <li>
-                    <a className='menu-item'>Skills</a>
+                    <a href='#skills' className='menu-item'>Skills</a>
                 </li>
                 <li>
-                    <a className='menu-item'>Work Experience</a>
+                    <a href='#experience' className='menu-item'>Work Experience</a>
                 </li>
                 <li>
-                    <a className='menu-item'>Contatct Me</a>
+                    <a href='#contact' className='menu-item'>Contatct Me</a>
                 </li>
                 
-                <button className='contact-btn' onClick={()=>{}}>
+                <button className='contact-btn' onClick={()=>{window.location.href = "mailto:dsak.official@gmail.com";}}>
                     Hire Me 
                 </button>
             </ul>
