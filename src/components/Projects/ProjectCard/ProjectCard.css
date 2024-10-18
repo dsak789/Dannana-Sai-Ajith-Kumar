@@ -1,0 +1,89 @@
+.projects-card {
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    padding: 1.5rem 2.5rem; /* Slightly adjust padding for better spacing */
+    text-align: center;
+    background: rgba(22, 17, 47, 0.4);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.projects-card:hover,
+.projects-card.active {
+    background: linear-gradient(180deg, #aa94fe 0%, #7c5fe6 100%);
+}
+
+.projects-card span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.project-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2a2252;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6852ba;
+    position: absolute;
+    top: -0.4rem;
+    left: -0.4rem;
+}
+
+.project-icon img {
+    width: 1.4rem;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 1024px) {
+    .projects-card {
+        padding: 1.5rem 2rem; /* Reduced padding for better compactness */
+    }
+    .projects-card span {
+        font-size: 1rem; /* Adjusted font size */
+    }
+    .project-icon {
+        width: 2.8rem;
+        height: 2.8rem; /* Slightly increased icon size for mid-size screens */
+    }
+    .project-icon img {
+        width: 1.6rem; /* Slightly larger icon image */
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-card {
+        padding: 1rem 1.5rem; /* Compact padding for smaller screens */
+    }
+    .projects-card span {
+        font-size: 0.9rem; /* Reduced font size for better scaling */
+    }
+    .project-icon {
+        width: 1.7rem;
+        height: 1.7rem; /* Maintain icon size */
+    }
+    .project-icon img {
+        width: 1rem; /* Keep the image size consistent with icon */
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-card {
+        padding: .7rem .9rem; /* Smaller padding for mobile */
+    }
+    .projects-card span {
+        font-size: 0.55rem; /* Slightly smaller text size for mobile */
+    }
+    .project-icon {
+        width: 1.5rem;
+        height: 1.5rem; /* Compact the icon size for mobile */
+    }
+    .project-icon img {
+        width: .7rem; /* Adjust image size to fit the smaller icon */
+    }
+}
