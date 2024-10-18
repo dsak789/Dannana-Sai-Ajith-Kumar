@@ -11,7 +11,7 @@ const Hero = () => {
 
         <Typed
           className="typed-roles"
-          strings={["Web Developer", "Passionate Coder", "Freelancer"]}
+          strings={["IT Graduate","Web Developer", "Passionate Coder", "Freelancer"]}
           typeSpeed={40}
           backSpeed={50}
           loop

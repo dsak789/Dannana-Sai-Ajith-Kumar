@@ -5,28 +5,33 @@ export const SKILLS = [
     skills: [
       { skill: "ReactJs", percentage: "80%" },
       { skill: "React Native", percentage: "80%" },
-      { skill: "HTML5", percentage: "80%" },
-      { skill: "CSS3", percentage: "90%" },
       { skill: "JavaScript", percentage: "75%" },
+      { skill: "Streamlit", percentage: "70%" },
+      { skill: "HTML and CSS", percentage: "80%" },
+      { skill: "Material UI", percentage: "70%" },
     ],
   },
   {
     title: "Backend",
     icon: "./assets/images/backend.png",
     skills: [
-      { skill: "NodeJs", percentage: "70%" },
+      { skill: "Java", percentage: "85%" },
+      { skill: "NodeJs", percentage: "80%" },
       { skill: "ExpressJs", percentage: "80%" },
       { skill: "PHP", percentage: "90%" },
-      { skill: "FastAPI", percentage: "70%" },
+      { skill: "Flask", percentage: "70%" },
     ],
   },
   {
     title: "Tools",
     icon: "./assets/images/tools.png",
     skills: [
-      { skill: "Git & GitHub", percentage: "85%" },
-      { skill: "Visual Studio Code", percentage: "75%" },
+      { skill: "GitHub", percentage: "85%" },
+      { skill: "Git", percentage: "75%" },
+      { skill: "Visual Studio Code", percentage: "85%" },
       { skill: "Postman", percentage: "75%" },
+      { skill: "Expo", percentage: "65%" },
+      { skill: "Figma", percentage: "70%" },
     ],
   },
 ];
@@ -60,3 +65,97 @@ export const WORK_EXPERIENCE = [
     ],
   },
 ];
+
+
+export const Projects =[
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+  {
+    title:"Task Tracker App",
+    description:"",
+    domain:"Android",
+    github:"",
+    livelink:"",
+    public:"",
+    images:[]
+  },
+]
