@@ -1,26 +1,43 @@
-import React from 'react'
-import Hero from './components/Hero/Hero'
-import Navbar from './components/Navbar/Navbar'
-import './App.css'
-import Skills from './components/Skills/Skills'
-import WorkExperience from './components/workexperience/WorkExperience'
-import ContactMe from './components/ContactMe/ContactMe'
-import Footer from './components/Footer/Footer'
-import Projects from './components/Projects/Projects'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Skills from './components/Skills/Skills';
+import WorkExperience from './components/workexperience/WorkExperience';
+import ContactMe from './components/ContactMe/ContactMe';
+import Footer from './components/Footer/Footer';
+import Projects from './components/Projects/Projects';
+import ProjectDetails from './components/Projects/ProjectDetails/ProjectDetails';  
+import './App.css';
+
 const App = () => {
   return (
-    <>
-      <Navbar/>
+    <Router>
+      <Navbar />
       <div className='container'>
-        <Hero/>
-        <Skills/>
-        <WorkExperience/>
-        <Projects/>
-        <ContactMe/>
-      </div>
-      <Footer/>
-    </>
-  )
-}
+        <Routes>
+          {/* Main Route */}
+          <Route path="/" element={
+            <>
+              <Hero />
+              <Skills />
+              <WorkExperience />
+              <Projects />
+              <ContactMe />
+            </>
+          } />
 
-export default App
+          <Route path="/Hero" element={<Hero />} />
+          <Route path="/Skills" element={<Skills />} />
+          <Route path="/Experience" element={<WorkExperience />} />
+          <Route path="/projects/:platform/:projectId" element={<ProjectDetails />} />
+          <Route path="/Contact" element={<ContactMe />} />
+          <Route path="*" element={<ContactMe />} />
+        </Routes>
+      </div>
+      <Footer />
+    </Router>
+  );
+};
+
+export default App;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectInfo.css";
-import { FaGithub } from "react-icons/fa"; // For GitHub icon
+import { FaGithub } from "react-icons/fa"; 
 
 const ProjectInfo = ({ projects }) => {
   return (
@@ -15,8 +15,8 @@ const ProjectInfo = ({ projects }) => {
           <div className="project-content">
             <h6>{project.title}</h6>
             <p className="project-description">{project.description}</p>
-            <a href={`/projects/${index}`} className="view-more">
-              {/* View More */}
+            <a href={`/projects/${project.platform}/${project.title}`} className="view-more">
+              View More
             </a>
 
             <div className="project-links">

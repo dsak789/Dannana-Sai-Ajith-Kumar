@@ -3,12 +3,9 @@ import "./Projects.css";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import { Platforms } from "../../utils/data";
 import ProjectInfo from "./ProjectInfo/ProjectInfo";
-// import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
 const Projects = () => {
   const [selectedPlatform, setSelectedPlatform] = useState(Platforms[0]);
-  // console.log(selectedPlatform)
   const handleSelectedPlatform = (data) => {
-    // alert(data)
     setSelectedPlatform(data);
   };
 

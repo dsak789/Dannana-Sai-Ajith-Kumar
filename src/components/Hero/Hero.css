@@ -93,7 +93,7 @@
 .tech-icon img:hover {
   /* animation: profileshape 3s infinite; */
   transform: translateY(-0.5rem);
-  cursor: pointer;
+  cursor:none;
 }
 /* Social Icons */
 .social-icons {
