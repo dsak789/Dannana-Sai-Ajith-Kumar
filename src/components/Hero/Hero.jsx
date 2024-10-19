@@ -11,7 +11,12 @@ const Hero = () => {
 
         <Typed
           className="typed-roles"
-          strings={["IT Graduate","Web Developer", "Passionate Coder", "Freelancer"]}
+          strings={[
+            "IT Graduate",
+            "Web Developer",
+            "Passionate Coder",
+            "Freelancer",
+          ]}
           typeSpeed={40}
           backSpeed={50}
           loop
@@ -25,16 +30,17 @@ const Hero = () => {
           <a href="#contact" className="btn hero-contact-btn">
             Contact
           </a>
-          <a href="/resume.pdf" className="btn resume-btn" download>
+          <a
+            href="https://drive.google.com/file/d/1OYG4hzW1xSgWGI_AWipa8Tgm_pQaWV-8/view?usp=sharing"
+            className="btn resume-btn"
+            target="_blank"
+            download
+          >
             Resume
           </a>
         </div>
         <div className="social-icons">
-          <a
-            href="https://github.com/dsak789"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/dsak789" target="_blank" rel="noreferrer">
             <FaGithub className="social-icon" />
           </a>
           <a

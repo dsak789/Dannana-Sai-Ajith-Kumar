@@ -14,3 +14,25 @@ body {
   color: #fff;
   background-color: #060417;
 }
+/* Custom scrollbar for webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #2a2252; /* Track background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7c66e3; /* Color of the scrolling thumb */
+  border-radius: 10px;
+  border: 2px solid #2a2252; /* Padding around thumb */
+}
+
+/* Scrollbar for Firefox */
+* {
+  scroll-behavior: smooth;
+  scrollbar-width:thin; 
+  scrollbar-color: #7c66e3 #2a2252; 
+}

@@ -17,8 +17,9 @@
 }
 
 .logo{
-    width: 5rem;
+    width: 10em;
     height: auto;
+    padding: 3px;
 }
 
 .nav-content ul {
@@ -110,8 +111,9 @@
 
 @media (max-width: 425px){
     .logo{
-        width: 2.5rem;
+        width: 5.5rem;
         height: auto;
+        padding: .2rem;
     }
 }
 
