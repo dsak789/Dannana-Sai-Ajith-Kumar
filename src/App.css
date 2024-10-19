@@ -5,6 +5,7 @@
 }
 *{
     user-select: none;
+    /* cursor: none; */
 
 }
 @media (max-width:1300px){
