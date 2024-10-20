@@ -25,7 +25,11 @@
   height: auto;
   object-fit: contain;
 }
-.contact-details-card p {
-  font-size: 0.9rem;
+.contact-details-card .anchor {
+  text-decoration: none;  
+  color:#6751b9;
+}
+.contact-details-card .anchor p {
+  font-size: 1rem;
   font-weight: 400  ;
 }

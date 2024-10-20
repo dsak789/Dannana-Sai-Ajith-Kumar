@@ -7,7 +7,7 @@ import "./ProjectDetails.css";
 const ProjectDetail = () => {
   const { platform, projectId } = useParams();
   // const project = Projects[platform][projectId];
-  console.log(projectId)
+  // console.log(projectId)
   const project = Projects[platform].find((project) => project.title === projectId);
   
   const sliderSettings = {

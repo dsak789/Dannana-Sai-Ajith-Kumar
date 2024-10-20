@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className="nav-wrapper">
         <div className="nav-content">
           <a href="/">
-            <img className="logo" src={"./DSAKlogo.png"} alt="DSAK-Logo" />
+            <img className="logo" src={"/DSAKlogo.png"} alt="DSAK-Logo" />
           </a>
 
           <ul>

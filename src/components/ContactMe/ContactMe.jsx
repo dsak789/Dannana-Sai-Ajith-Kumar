@@ -9,12 +9,14 @@ const ContactMe = () => {
       <div className="contact-content">
         <div style={{ flex: 1 }}>
           <ContactInfoCard
-            iconUrl={"./assets/gmail.svg"}
+            iconUrl={"/assets/gmail.svg"}
             text={"dsak.official@gmail.com"}
+            link={"mailto:dsak.official@gmail.com"}
           />
           <ContactInfoCard
-            iconUrl={"./assets/github.svg"}
+            iconUrl={"/assets/github.svg"}
             text={"https://github.com/dsak789"}
+            link={"https://github.com/dsak789"}
           />
         </div>
         <div style={{ flex: 1 }}>
