@@ -14,25 +14,42 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <div className='container'>
+      <div className="container">
         <Routes>
           {/* Main Route */}
-          <Route path="/" element={
-            <>
-              <Hero />
-              <Skills />
-              <WorkExperience />
-              <Projects />
-              <ContactMe />
-            </>
-          } />
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <Skills />
+                <WorkExperience />
+                <Projects />
+                <ContactMe />
+              </>
+            }
+          />
 
           <Route path="/Hero" element={<Hero />} />
           <Route path="/Skills" element={<Skills />} />
           <Route path="/Experience" element={<WorkExperience />} />
-          <Route path="/projects/:platform/:projectId" element={<ProjectDetails />} />
+          <Route
+            path="/projects/:platform/:projectId"
+            element={<ProjectDetails />}
+          />
           <Route path="/Contact" element={<ContactMe />} />
-          <Route path="*" element={<ContactMe />} />
+          <Route
+            path="*"
+            element={
+              <>
+                <Hero />
+                <Skills />
+                <WorkExperience />
+                <Projects />
+                <ContactMe />
+              </>
+            }
+          />
         </Routes>
       </div>
       <Footer />
