@@ -19,19 +19,21 @@ export const SKILLS = [
       { skill: "NodeJs", percentage: "80%" },
       { skill: "ExpressJs", percentage: "80%" },
       { skill: "PHP", percentage: "90%" },
-      { skill: "Flask", percentage: "70%" },
+      { skill: "Python", percentage: "85%" },
+      { skill: "Fast API", percentage: "70%" },
     ],
   },
   {
     title: "Tools",
     icon: "./assets/images/tools.png",
     skills: [
-      { skill: "GitHub", percentage: "85%" },
-      { skill: "Git", percentage: "75%" },
       { skill: "Visual Studio Code", percentage: "85%" },
+      { skill: "Eclipse", percentage: "65%" },
+      { skill: "Git and GitHub", percentage: "85%" },
       { skill: "Postman", percentage: "75%" },
       { skill: "Expo", percentage: "65%" },
       { skill: "Figma", percentage: "70%" },
+      { skill: "Excel", percentage: "65%" },
     ],
   },
 ];
@@ -74,8 +76,12 @@ export const Projects = {
         "An Interactive TODO list Application using React Native and Expo",
       platform: "Android",
       github: "https://github.com/dsak789/Task-Tracker-App" || false,
-      livelink: "" || false,
-      public: "" || false,
+      livelink:
+        "https://drive.google.com/file/d/1yGKpZne9NjRP4sbx40bKeDGAkv5xpal0/view?usp=sharing" ||
+        false,
+      public:
+        "https://drive.google.com/file/d/1yGKpZne9NjRP4sbx40bKeDGAkv5xpal0/view?usp=sharing" ||
+        false,
       "tools&technologies": ["React Native", "Expo", "NodeJs"] || false,
       images: [
         "/assets/projectImages/tasktrackerapp/0.png",
@@ -96,11 +102,15 @@ export const Projects = {
     {
       title: "Bujji AI App",
       description:
-      "A Single Response Gemini Generative Model Bujji AI Application using React Native and Expo",
+        "A Single Response Gemini Generative Model Bujji AI Application using React Native and Expo",
       platform: "Android",
       github: "https://github.com/dsak789/Bujji-AI-App" || false,
-      livelink: "" || false,
-      public: "" || false,
+      livelink:
+        "https://drive.google.com/file/d/1Q9ZD7kKnhqC2SD-Gfbzn74din_WIX3eu/view?usp=sharing" ||
+        false,
+      public:
+        "https://drive.google.com/file/d/1Q9ZD7kKnhqC2SD-Gfbzn74din_WIX3eu/view?usp=sharing" ||
+        false,
       "tools&technologies": ["React Native", "Expo", "NodeJs"] || false,
       images: [
         "/assets/projectImages/bujjiaiapp/0.png",
@@ -114,12 +124,16 @@ export const Projects = {
     {
       title: "Todo List App",
       description:
-      "A basic TODO list Mobile Application using React Native and Expo",
+        "A basic TODO list Mobile Application using React Native and Expo",
       platform: "Android",
       github: "https://github.com/dsak789/TodoListApp" || false,
-      livelink: "" || false,
-      public: "" || false,
-      "tools&technologies": ["React Native", "Expo", "NodeJs"] || false, 
+      livelink:
+        "https://github.com/dsak789/TodoListApp/raw/refs/heads/main/releases/.apk/TodoList.apk" ||
+        false,
+      public:
+        "https://github.com/dsak789/TodoListApp/raw/refs/heads/main/releases/.apk/TodoList.apk" ||
+        false,
+      "tools&technologies": ["React Native", "Expo", "NodeJs"] || false,
       images: [
         "/assets/projectImages/todolistapp/0.png",
         "/assets/projectImages/todolistapp/tl0.png",
@@ -133,12 +147,21 @@ export const Projects = {
     {
       title: "JNTUGV Admin Console",
       description:
-      "A confidential Administrative Web Consoles with Complete Frontend and Backend Api using ReactJs, NodeJs ",
+        "A confidential Administrative Web Consoles with Complete Frontend and Backend Api using ReactJs, NodeJs ",
       platform: "Web",
       github: "" || false,
       livelink: "" || false,
       public: "" || false,
-      "tools&technologies": ["ReactJS", "Material UI", "NodeJs","Hostinger", "VPS","College Server", "Namecheap"] || false, 
+      "tools&technologies":
+        [
+          "ReactJS",
+          "Material UI",
+          "NodeJs",
+          "Hostinger",
+          "VPS",
+          "College Server",
+          "Namecheap",
+        ] || false,
       images: [
         "/assets/projectImages/jntugv/0.png",
         "/assets/projectImages/jntugv/j1.png",
@@ -152,12 +175,12 @@ export const Projects = {
     {
       title: "Task Tracker Streamlit App",
       description:
-      "A Single Response Gemini Generative Model Bujji AI Web App using Python Streamlit ",
+        "A Single Response Gemini Generative Model Bujji AI Web App using Python Streamlit ",
       platform: "Web",
       github: "https://github.com/dsak789/taskTracker" || false,
       livelink: "https://tasktracker.streamlit.app/" || false,
       public: "https://tasktracker.streamlit.app/" || false,
-      "tools&technologies": ["Streamlit", "Fast API", "NodeJs"] || false, 
+      "tools&technologies": ["Streamlit", "Fast API", "NodeJs"] || false,
       images: [
         "/assets/projectImages/tasktracker/0.png",
         "/assets/projectImages/tasktracker/tt1.png",
@@ -173,12 +196,12 @@ export const Projects = {
     {
       title: "Faker 789 API",
       description:
-      "Faker 789 is a Fake Details generator API using Streamlit and Fast Api",
+        "Faker 789 is a Fake Details generator API using Streamlit and Fast Api",
       platform: "Web",
       github: "https://github.com/dsak789/Fake-Details-Generator-API" || false,
       livelink: "https://faker789.streamlit.app/" || false,
       public: "https://faker789.streamlit.app/" || false,
-      "tools&technologies": ["Streamlit", "Fast API", "Python"] || false, 
+      "tools&technologies": ["Streamlit", "Fast API", "Python"] || false,
       images: [
         "/assets/projectImages/faker789/0.png",
         "/assets/projectImages/faker789/f1.png",
@@ -197,7 +220,7 @@ export const Projects = {
       github: "https://github.com/dsak789/taskTracker" || false,
       livelink: "https://dsak789github.vercel.app/" || false,
       public: "https://dsak789github.vercel.app/" || false,
-      "tools&technologies": ["ReactJS", "GitHub API", "Css"] || false, 
+      "tools&technologies": ["ReactJS", "GitHub API", "Css"] || false,
       images: [
         "/assets/projectImages/githubclone/0.png",
         "/assets/projectImages/githubclone/gc1.png",
@@ -213,12 +236,12 @@ export const Projects = {
     {
       title: "Bujji AI Streamlit App",
       description:
-      "A Single Response Bujji Chatbot Web App using Python Streamlit ",
+        "A Single Response Bujji Chatbot Web App using Python Streamlit ",
       platform: "Web",
       github: "https://github.com/dsak789/AI-Gen-Bot" || false,
       livelink: "https://bujjiai.streamlit.app/" || false,
       public: "https://bujjiai.streamlit.app/" || false,
-      "tools&technologies": ["Streamlit", "Gemini API", "Python"] || false, 
+      "tools&technologies": ["Streamlit", "Gemini API", "Python"] || false,
       images: [
         "/assets/projectImages/bujjiaistreamlit/0.png",
         "/assets/projectImages/bujjiaistreamlit/bas1.png",
@@ -231,12 +254,12 @@ export const Projects = {
     {
       title: "News 360",
       description:
-      "News 360 is Broadcasting Website from Open Source News API ",
+        "News 360 is Broadcasting Website from Open Source News API ",
       platform: "Web",
       github: "https://github.com/dsak789/news360" || false,
       livelink: "https://360news.vercel.app/" || false,
       public: "https://360news.vercel.app/" || false,
-      "tools&technologies": ["ReactJS", "Open News API", "Css"] || false, 
+      "tools&technologies": ["ReactJS", "Open News API", "Css"] || false,
       images: [
         "/assets/projectImages/news360/0.png",
         "https://photos.prnewswire.com/prnfull/20160503/363222LOGO?max=200",
@@ -250,7 +273,8 @@ export const Projects = {
       github: "https://github.com/dsak789/csv-data-plotting" || false,
       livelink: "https://csvplotter.streamlit.app/" || false,
       public: "https://csvplotter.streamlit.app/" || false,
-      "tools&technologies": ["Python", "Pandas and Matplotlib","Streamlit"] || false, 
+      "tools&technologies":
+        ["Python", "Pandas and Matplotlib", "Streamlit"] || false,
       images: [
         "/assets/projectImages/csvplotter/0.png",
         "/assets/projectImages/csvplotter/cp1.png",
@@ -265,12 +289,12 @@ export const Projects = {
     {
       title: "Faker 789 API",
       description:
-      "Faker 789 is a Fake Details generator API using Streamlit and Fast Api",
+        "Faker 789 is a Fake Details generator API using Streamlit and Fast Api",
       platform: "API",
       github: "https://github.com/dsak789/Fake-Details-Generator-API" || false,
       livelink: "https://faker789.vercel.app/" || false,
       public: "https://faker789.vercel.app/" || false,
-      "tools&technologies": ["Python","Fast API", "Streamlit"] || false, 
+      "tools&technologies": ["Python", "Fast API", "Streamlit"] || false,
       images: [
         "/assets/projectImages/faker789/0.png",
         "/assets/projectImages/faker789/f1.png",
@@ -287,12 +311,12 @@ export const Projects = {
     {
       title: "Ascon-128",
       description:
-      "Algorithm for Encrypting and Decrypting of Data Transmitting through IOT Devices",
+        "Algorithm for Encrypting and Decrypting of Data Transmitting through IOT Devices",
       platform: "Arduino",
       github: "https://github.com/dsak789/Ascon128" || false,
       livelink: "" || false,
       public: "" || false,
-      "tools&technologies": ["Arduino IDE", "Arduiono Board", "C"] || false, 
+      "tools&technologies": ["Arduino IDE", "Arduiono Board", "C"] || false,
       images: [
         "/assets/projectImages/ascon128/0.png",
         "/assets/projectImages/ascon128/a1.png",
@@ -302,7 +326,6 @@ export const Projects = {
         "/assets/projectImages/ascon128/a5.png",
         "/assets/projectImages/ascon128/a6.png",
         "/assets/projectImages/ascon128/a7.png",
-
       ],
     },
   ],

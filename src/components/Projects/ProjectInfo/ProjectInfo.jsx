@@ -10,7 +10,7 @@ const ProjectInfo = ({ projects }) => {
           <img
             className="project-thumbnail"
             src={project.images[0]} 
-            alt={project.images[0]}
+            alt={project.title+' Thubmnail'}
           />
           <div className="project-content">
             <h6>{project.title}</h6>
@@ -27,10 +27,11 @@ const ProjectInfo = ({ projects }) => {
                   rel="noopener noreferrer"
                   className="live-link"
                 >
-                  Live Demo
+                  {project.platform ==="Android"?<>Download APK</>  : <>Live Link</>}
                 </a>
               ) : (
-                <p className="disabled-link">Live link not available</p>
+                project.platform ==="Android"?<p className="disabled-link">Live Apk Link Not Available</p>:
+                  <p className="disabled-link">Live link not available</p>
               )}
 
               {project.github ? (
