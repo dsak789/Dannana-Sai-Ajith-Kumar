@@ -16,7 +16,7 @@ const ProjectInfo = ({ projects }) => {
             <h6>{project.title}</h6>
             <p className="project-description">{project.description}</p>
             <a href={`/projects/${project.platform}/${project.title}`} className="view-more">
-              View More
+              Know More
             </a>
 
             <div className="project-links">

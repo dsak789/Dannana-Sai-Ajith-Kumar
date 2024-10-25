@@ -83,10 +83,16 @@ const ProjectDetail = () => {
               rel="noopener noreferrer"
               className="project-link-btn"
             >
-              Live Demo
+              {project.platform === "Android" ? (
+                <>Download APK</>
+              ) : (
+                <>Live Link</>
+              )}
             </a>
           ) : (
-            <p className="project-private-info">Live link not available</p>
+            // <p className="project-private-info">Live link not available</p>
+            project.platform ==="Android"?<p className="project-private-info">Live Apk Link Not Available</p>:
+                  <p className="project-private-info">Live link not available</p>
           )}
         </div>
 

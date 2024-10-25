@@ -34,6 +34,7 @@ const Hero = () => {
             href="https://drive.google.com/file/d/1OYG4hzW1xSgWGI_AWipa8Tgm_pQaWV-8/view?usp=sharing"
             className="btn resume-btn"
             target="_blank"
+            rel="noreferrer"
             download
           >
             Resume
@@ -70,20 +71,20 @@ const Hero = () => {
       <div className="hero-img">
         <div>
           <div className="tech-icon">
-            <img src="./assets/images/React-icon.svg.png" alt="React" />
+            <img src="/assets/images/React-icon.svg.png" alt="React" />
           </div>
-          <img src="./assets/SBProfile.jpg" alt="DSAK" />
+          <img src="/assets/SBProfile.jpg" alt="DSAK" />
         </div>
 
         <div>
           <div className="tech-icon">
-            <img src="./assets/images/html5.png" alt="HTML5" />
+            <img src="/assets/images/html5.png" alt="HTML5" />
           </div>
           <div className="tech-icon">
-            <img src="./assets/images/css3.png" alt="CSS3" />
+            <img src="/assets/images/css3.png" alt="CSS3" />
           </div>
           <div className="tech-icon">
-            <img src="./assets/images/javascript.png" alt="JavaScript" />
+            <img src="/assets/images/javascript.png" alt="JavaScript" />
           </div>
         </div>
       </div>
